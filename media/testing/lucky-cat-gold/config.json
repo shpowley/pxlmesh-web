@@ -1,0 +1,11 @@
+{
+  "nano_ID": "agu-k2humvZ3",
+  "version": 0,
+  "option_face_forward": true,
+  "face_forward_enabled": true,
+  "skybox_map": "chinese_garden",
+  "rotation_decay_normal": 0.995,
+  "model_rotation_speed_min": 0,
+  "model_rotation_speed_max": 800,
+  "camera_undefined_scale_factor": 1.8
+}

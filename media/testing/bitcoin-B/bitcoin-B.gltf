@@ -1,0 +1,155 @@
+{
+    "asset" : {
+        "copyright" : "PXLmesh, LLC",
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "carver_target" : {},
+                "texToolsSettings" : {
+                    "uv_channel" : 0,
+                    "texel_density" : 1627.779541015625,
+                    "texel_get_mode" : 0,
+                    "size" : [
+                        8192,
+                        8192
+                    ],
+                    "size_dropdown" : 8,
+                    "padding" : 4
+                },
+                "UVPackerProps" : {
+                    "uvp_engine" : 0,
+                    "uvp_stats" : "25.43% \u00a6 0.22s",
+                    "uvp_padding" : 8.0,
+                    "uvp_width" : 2048,
+                    "uvp_height" : 2048,
+                    "uvp_prerotate" : 1,
+                    "uvp_rotate" : 0,
+                    "uvp_rescale" : 1,
+                    "uvp_tilesX" : 1,
+                    "uvp_tilesY" : 1,
+                    "uvp_fullRotate" : 0
+                },
+                "muv_pack_uv_enabled" : 1,
+                "uvpm3_props" : {
+                    "scripted_props" : {},
+                    "fixed_scale" : 0,
+                    "fixed_scale_strategy" : 2,
+                    "normalize_islands" : 1
+                },
+                "NWBusyDrawing" : "",
+                "NWLazySource" : "Image Texture",
+                "NWLazyTarget" : "Separate RGB"
+            },
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "large-B"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material-large-B",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    1,
+                    0.679542064666748,
+                    0,
+                    1
+                ],
+                "metallicFactor" : 0.8999999761581421,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "large-B",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1448,
+            "max" : [
+                0.47155436873435974,
+                0.6259734630584717,
+                0.07750021666288376
+            ],
+            "min" : [
+                -0.459893137216568,
+                -0.6159153580665588,
+                -0.07750021666288376
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1448,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1448,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 4116,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 17376,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17376,
+            "byteOffset" : 17376
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11584,
+            "byteOffset" : 34752
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8232,
+            "byteOffset" : 46336
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 54568,
+            "uri" : "bitcoin-B.bin"
+        }
+    ]
+}

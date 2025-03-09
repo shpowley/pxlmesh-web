@@ -1,0 +1,15 @@
+## LOGS
+logs
+*.log
+
+## DIRECTORIES
+node_modules
+
+## FILES
+.DS_Store
+.vscode/*
+.idea
+package-lock.json
+README.md
+NOTES.txt
+vite.config.js
