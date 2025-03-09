@@ -1,0 +1,96 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+.container {
+  margin: 10.0vw auto 8.0vw auto;
+  text-align: center;
+}
+.container iframe {
+  display: block;
+  margin: 1.5vw auto 0 auto;
+
+  border-width: 0;
+
+  height: 39.375vw;
+  width: 70vw;
+
+  /*
+  REFERENCE DIMENSIONS
+  height: 720px;
+  width: 1280px;
+  */
+}
+.google-play {
+  height: auto;
+  max-width: 30%;
+  min-width: 200px;
+  width: 260px;
+}
+hr {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(19, 61, 74);
+  width: 60vw;
+}
+.info {
+  line-height: 1.0em;
+  margin-top: 8.5vw;
+  padding-bottom: 4vw;
+}
+.info div {
+  margin: 0 40px 0 40px;
+}
+#logo {
+  height: auto;
+  margin: auto 0 auto 4.0vw;
+  max-width: 50%;
+  min-width: 200px;
+  width: 540px;
+}
+#logo-background {
+  background-image: url("../images/cube.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 20vw;
+  display: flex;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 20.0vw auto 16.0vw auto;
+  }
+  .container iframe {
+    height: 55.125vw;
+    width: 98vw;
+  }
+  #logo {
+    margin: auto 0 auto 0;
+  }
+  #logo-background {
+    justify-content: center;
+    height: 120px;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .container {
+    margin: 108px auto 86.4px auto;
+  }
+  .container iframe {
+    height: 425.25px;
+    width: 756px;
+
+    margin-top: 16.2px;
+  }
+  .info {
+    margin-top: 92px;
+    padding-bottom: 40px;
+  }
+  #logo {
+    margin: auto 0 auto 43px;
+  }
+  #logo-background {
+    height: 216px;
+  }
+}

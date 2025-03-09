@@ -1,0 +1,21 @@
+{
+  "name": "pxlmesh-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "list": "npm list --depth=0",
+    "outdated": "npm outdated --depth=0",
+    "update": "npm update",
+    "build": "vite build",
+    "deploy": "gh-pages -d dist",
+    "uninstall": "rm -rf node_modules && rm -rf dist && rm package-lock.json"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^6.2.1"
+  },
+  "dependencies": {
+  }
+}

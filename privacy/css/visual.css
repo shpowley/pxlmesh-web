@@ -1,0 +1,28 @@
+body {
+  background: rgb(247, 244, 241);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+.container-main h2 {
+  font-size: 1.0em;
+}
+
+@media screen and (max-width: 350px) {
+  body {
+    font-size: 12px;
+  }
+}

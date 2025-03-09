@@ -1,0 +1,28 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+.container-main {
+  margin: 2.5em 3vw;
+}
+.container-main li {
+  margin: 1.0em 0;
+}
+#logo {
+  margin: 3vw;
+}
+#logo img {
+  padding: 10px;
+  background-color: royalblue;
+  height: auto;
+  width: 250px;
+}
+@media screen and (max-width: 350px) {
+  #logo {
+    margin: 0;
+  }
+  #logo img {
+    width: 92vw;
+    padding: 4vw;
+  }
+}
